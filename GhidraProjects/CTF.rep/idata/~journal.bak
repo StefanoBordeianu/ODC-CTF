@@ -1,9 +1,1 @@
-IADD:0000000d:/ptr_protection
-IDSET:/ptr_protection:7f011b2071519945092485
-IMV:/ptr_protection:/mitigations/ptr_protection
-IADD:0000000e:/leaked_license
-IDSET:/leaked_license:7f011b4131545445744652
-IMV:/leaked_license:/reversing/leaked_license
-IADD:0000000f:/benchmarking_service
-IDSET:/benchmarking_service:7f0118b7f1570134270741
-IMV:/benchmarking_service:/shellcode/benchmarking_service
+IMV:/leakers:/mitigations/leakers
