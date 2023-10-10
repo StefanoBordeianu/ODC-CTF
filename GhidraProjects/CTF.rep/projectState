@@ -3,8 +3,6 @@
     <PROJECT_DATA_XML_NAME NAME="DISPLAY_DATA">
         <SAVE_STATE>
             <ARRAY NAME="EXPANDED_PATHS" TYPE="string">
-                <A VALUE="CTF:mitigations:" />
-                <A VALUE="CTF:reversing:" />
                 <A VALUE="CTF:rop:" />
                 <A VALUE="CTF:" />
             </ARRAY>
