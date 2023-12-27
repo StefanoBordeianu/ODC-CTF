@@ -4,7 +4,6 @@
         <SAVE_STATE>
             <ARRAY NAME="EXPANDED_PATHS" TYPE="string">
                 <A VALUE="CTF:heap:" />
-                <A VALUE="CTF:symb:" />
                 <A VALUE="CTF:" />
             </ARRAY>
             <STATE NAME="SHOW_TABLE" TYPE="boolean" VALUE="false" />
