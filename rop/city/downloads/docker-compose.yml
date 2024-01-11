@@ -1,0 +1,11 @@
+version: "3"
+services:
+  citychain:
+    build: .
+    container_name: chall03-citychain # Change this 
+    restart: always
+    read_only: true
+    volumes:
+     - ./chall:/chall:ro
+    command: socat tcp-listen:4003,fork,reuseaddr exec:"/chall/citychain" # Change file_name
+    network_mode: host

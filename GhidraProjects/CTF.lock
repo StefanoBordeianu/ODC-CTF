@@ -1,9 +1,0 @@
-#Ghidra Lock File
-#Tue Jan 02 13:09:59 CET 2024
-<META>\ Supports\ File\ Channel\ Locking=Channel Lock
-Hostname=zerocool-ODC
-OS\ Architecture=amd64
-OS\ Name=Linux
-OS\ Version=6.2.0-39-generic
-Timestamp=1/2/24, 1\:09 PM
-Username=zerocool

@@ -3,9 +3,8 @@
     <PROJECT_DATA_XML_NAME NAME="DISPLAY_DATA">
         <SAVE_STATE>
             <ARRAY NAME="EXPANDED_PATHS" TYPE="string">
-                <A VALUE="CTF:packing:john:" />
                 <A VALUE="CTF:" />
-                <A VALUE="CTF:packing:" />
+                <A VALUE="CTF:heap:" />
             </ARRAY>
             <STATE NAME="SHOW_TABLE" TYPE="boolean" VALUE="false" />
         </SAVE_STATE>
